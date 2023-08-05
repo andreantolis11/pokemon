@@ -1,0 +1,30 @@
+/* Headers */
+.headers {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vw;
+    height: 10vh;
+    align-items: center;
+}
+
+.headers-left {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.headers-right {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.headers-right-link {
+    text-decoration: none;
+    color: black;
+}

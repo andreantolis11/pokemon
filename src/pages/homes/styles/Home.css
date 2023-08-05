@@ -1,0 +1,74 @@
+.homes {
+    display: flex;
+    flex-direction: column;
+}
+
+/* homes top */
+.homes-top {
+    text-align: center;
+    margin: 10vh 0 0 0;
+}
+
+.homes-top-title {
+    font-weight: 1000;
+    letter-spacing: 25px;
+    font-size: 65px;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.homes-top-desc {
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+/* homes mid */
+.homes-mid {
+    margin: 10vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homes-mid-button {
+    width: 400px;
+    height: 50px;
+    background-color: greenyellow;
+    font-weight: 900;
+    letter-spacing: 5px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid white;
+}
+
+.homes-mid-button-link {
+    text-decoration: none;
+    color: black;
+}
+
+.homes-mid-button:hover {
+    background-color: darkgreen;
+}
+
+/* homes-bot */
+.homes-bot {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30vh 0 0 0;
+}
+
+.homes-bot-title {
+    letter-spacing: 2px;
+}
+
+.homes-bot-desc {
+    margin: 1vh 0 0 0;
+    letter-spacing: 2px;
+    font-weight: 500;
+}

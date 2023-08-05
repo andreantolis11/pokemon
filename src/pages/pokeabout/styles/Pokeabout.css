@@ -1,0 +1,20 @@
+.pokeabouts-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pokeabouts-head-title {
+    font-weight: 1000;
+    letter-spacing: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: default;
+    margin: 25vh 0 0 0;
+}
+
+.pokeabouts-head-desc {
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 5vh 0 0 0;
+}

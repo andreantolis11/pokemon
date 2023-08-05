@@ -1,0 +1,175 @@
+/* pokealls-head */
+
+.pokedexs-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pokedexs-head-title {
+    font-weight: 1000;
+    letter-spacing: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: default;
+    margin: 10vh 0 0 0;
+}
+
+.pokedexs-head-desc {
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 2vh 0 0 0;
+}
+
+.pokedexs-mid {
+    margin: 10vh 5vw 0 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedexs-mid-input {
+    width: 30vw;
+    border: 1px solid rgb(124, 123, 120);
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.pokedex-mid-button {
+    width: 10vw;
+    height: 40px;
+    margin: 0 0 0 2vw;
+    border-radius: 20px;
+    background-color: orange;
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.pokedex-mid-button:hover {
+    background-color: darkgreen;
+}
+
+.pokedexs-bot {
+    margin: 5vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedexs-bot-card {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 0 5vh 0;
+    border-radius: 20px;
+    background-color: orange;
+    box-shadow: 9px 6px 54px 7px rgba(122,96,96,0.49);
+    -webkit-box-shadow: 9px 6px 54px 7px rgba(122,96,96,0.49);
+    -moz-box-shadow: 9px 6px 54px 7px rgba(122,96,96,0.49);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.pokedex-bot-card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-bot-card-text {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 9px 6px 54px 7px rgba(122,96,96,0.49);
+    -webkit-box-shadow: 9px 6px 54px 7px rgba(122,96,96,0.49);
+    -moz-box-shadow: 9px 6px 54px 7px rgba(122,96,96,0.49);
+    background-color: white;
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+}
+
+.pokedex-bot-card-text-info {
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin: 1vw 0 0 1vw;
+    text-align: center;
+}
+
+.pokedex-bot-card-text-parent {
+    margin: 5vh 0 5vh 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokedex-bot-card-text-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.pokedex-bot-card-text-desc {
+    margin: 0.5vw 0 0 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.pokedex-bot-card-text-type {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw 0 0 0;
+}
+
+.pokedex-bot-card-text-desc-type {
+    text-align: center;
+    color: white;
+    width: 7vw;
+    height: 4vh;
+    margin: 0 0.5vw 0 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.normal     { background-color: #a8a878; border: 3px solid lighten(#a8a878,15%); border-bottom-color: darken(#a8a878,15%); }
+.fire       { background-color: #b61616; border: 3px solid lighten(#78c850,15%); border-bottom-color: darken(#78c850,15%); }
+.fighting   { background-color: #c03028; border: 3px solid lighten(#c03028,15%); border-bottom-color: darken(#c03028,15%); }
+.water      { background-color: #6890f0; border: 3px solid lighten(#6890f0,15%); border-bottom-color: darken(#6890f0,15%); }
+.poison     { background-color: #a040a0; border: 3px solid lighten(#a040a0,15%); border-bottom-color: darken(#a040a0,15%); }
+.electric   { background-color: #f8d030; border: 3px solid lighten(#f8d030,15%); border-bottom-color: darken(#f8d030,15%); }
+.ground     { background-color: #e0c068; border: 3px solid lighten(#e0c068,15%); border-bottom-color: darken(#e0c068,15%); }
+.grass      { background-color: #589e34; border: 3px solid lighten(#78c850,15%); border-bottom-color: darken(#78c850,15%); }
+.flying     { background-color: #a890f0; border: 3px solid lighten(#a890f0,15%); border-bottom-color: darken(#a890f0,15%); }
+.ice        { background-color: #98d8d8; border: 3px solid lighten(#98d8d8,15%); border-bottom-color: darken(#98d8d8,15%); }
+.bug        { background-color: #a8b820; border: 3px solid lighten(#a8b820,15%); border-bottom-color: darken(#a8b820,15%); }
+.psychic    { background-color: #f85888; border: 3px solid lighten(#f85888,15%); border-bottom-color: darken(#f85888,15%); }
+.rock       { background-color: #b8a038; border: 3px solid lighten(#b8a038,15%); border-bottom-color: darken(#b8a038,15%); }
+.dragon     { background-color: #7038f8; border: 3px solid lighten(#7038f8,15%); border-bottom-color: darken(#7038f8,15%); }
+.ghost      { background-color: #705898; border: 3px solid lighten(#705898,15%); border-bottom-color: darken(#705898,15%); }
+.dark       { background-color: #705848; border: 3px solid lighten(#705848,15%); border-bottom-color: darken(#705848,15%); }
+.steel      { background-color: #b8b8d0; border: 3px solid lighten(#b8b8d0,15%); border-bottom-color: darken(#b8b8d0,15%); }
+.fairy      { background-color: #ffb7fa; border: 3px solid lighten(#ffb7fa,15%); border-bottom-color: darken(#ffb7fa,15%); }
