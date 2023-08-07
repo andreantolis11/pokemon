@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './styles/Pokedex.css'
 import axios from 'axios';
-
 export const Pokedex = () => {
 
     const [pokedex, setPokedex] = useState();

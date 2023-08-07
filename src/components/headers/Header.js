@@ -11,6 +11,7 @@ export const Header = () => {
             <Link className='headers-right-link' to="/pokeall">Pokeall</Link>
             <Link className='headers-right-link' to="/pokedex">Pokedex</Link>
             <Link className='headers-right-link' to="/pokeabout">Pokeabout</Link>
+            <Link className='headers-right-link' to="/pokemy">Pokemy</Link>
         </div>
     </div>
   )

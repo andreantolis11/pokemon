@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom'
 
 export const Pokeall = () => {
 
-    const {getAllPokemon, pokemon, loading} = useContext(BackendContext);
+    const {getAllPokemon, pokemon, loading, setPokeball} = useContext(BackendContext);
 
     useEffect(() => {
         getAllPokemon();
+        setPokeball(3);
     }, [getAllPokemon]);
 
   return (
@@ -37,14 +38,13 @@ export const Pokeall = () => {
                             {pok.name}
                         </div>
                         <div className='pokealls-mid-card-detail'>
-                            <Link className='pokealls-mid-card-detail-link' to="/pokedex">catch it</Link>
+                            <Link className='pokealls-mid-card-detail-link' to={`/catches/${index+1}`}>catch it</Link>
                         </div>
                     </div>
                 )) :
                 <div className='lds-container'>
                     <div className='lds-dual-ring'></div>
                 </div>
-                
             } 
             </>
         </div>

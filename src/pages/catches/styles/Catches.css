@@ -1,12 +1,10 @@
-/* pokealls-head */
-
-.pokealls-head {
+.catches-head {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.pokealls-head-title {
+.catches-head-title {
     font-weight: 1000;
     letter-spacing: 25px;
     font-size: 30px;
@@ -15,22 +13,26 @@
     margin: 10vh 0 0 0;
 }
 
-.pokealls-head-desc {
+.catches-head-desc {
     font-weight: 400;
     letter-spacing: 5px;
-    margin: 2vh 0 0 0;
+    margin: 5vh 0 0 0;
 }
 
-/* pokealls-mid */
+.catches-head-warn {
+    margin: 3vh 0 0 0;
+    letter-spacing: 3px;
+    color: orange;
+}
 
-.pokealls-mid {
+.catches-mid {
     margin: 10vh 5vw 0 5vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
-.pokealls-mid-card {
+.catches-mid-card {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -47,7 +49,7 @@
     -o-border-radius: 20px;
 }
 
-.pokealls-mid-card-image {
+.catches-mid-card-image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,26 +64,40 @@
     -o-border-radius: 10px;
 }
 
-
-
-.pokealls-mid-card-title {
+.catches-mid-card-title {
     margin: 3vh 0 0 0;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.pokealls-mid-card-detail {
+.catches-mid-card-desc {
+    margin: 1vh 0 0 0;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.catches-mid-card-catch {
     margin: 2vh 0 0 0;
 }
 
-.pokealls-mid-card-detail-link {
-    text-decoration: none;
-    letter-spacing: 1px;
+.catches-mid-card-catch-button {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: orange;
+    border: none;
+    font-weight: 700;
 }
 
-.pokealls-mid-card-detail-link:hover {
-    color: gray;
+.catches-mid-card-catch-button:hover {
+    background-color: darkgreen;
 }
 
 .normal     { background-color: #a8a878; border: 3px solid lighten(#a8a878,15%); border-bottom-color: darken(#a8a878,15%); }
@@ -103,26 +119,25 @@
 .steel      { background-color: #b8b8d0; border: 3px solid lighten(#b8b8d0,15%); border-bottom-color: darken(#b8b8d0,15%); }
 .fairy      { background-color: #ffb7fa; border: 3px solid lighten(#ffb7fa,15%); border-bottom-color: darken(#ffb7fa,15%); }
 
-
 /* loading animation */
 .lds-container {
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
-    margin: 0 auto 0 auto;
     width: 100%;
 }
 
 .lds-dual-ring {
-    display: inline-block;
-    width: 80px;
-    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
   .lds-dual-ring:after {
     content: " ";
     display: block;
-    width: 110px;
-    height: 110px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 6px solid orange;
     border-color: orange transparent orange transparent;
