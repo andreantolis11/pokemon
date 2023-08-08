@@ -22,7 +22,6 @@ export const BackendProvider = ({children}) => {
       setPokemon([...pokemonArray]);
       setLoading(false);
     } catch (error) {
-      console.log(error);
       setLoading(false);
     }
   }, []);
